@@ -1,0 +1,48 @@
+.weatherbg{
+  background: url("https://www.accuweather.com/images/hero/4/1440x450.jpg");
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading{
+  color: white;
+  font-weight: 700;
+}
+.weatherBox{
+  margin: auto;
+  width:500px;
+  height: 400px;
+  background-color:whitesmoke;
+}
+.weatherIcon{
+  width: 150px;
+  height: 100px;
+  margin-top: 1rem;
+  align-self: center;
+}
+.weatherCity{
+  font-size: 30px;
+}
+.weatherTemp{
+  font-size: 33px;
+  font-weight: 650;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sunrise-sunset{
+  padding: 20px;
+  color:darkslategrey;
+  font-family: 'Recursive', sans-serif;
+  font-size: 18px;
+}
+.temp{
+  padding: 20px;
+  color: darkslategray;
+  font-family: 'Recursive', sans-serif;
+  font-size: 18px;
+}
